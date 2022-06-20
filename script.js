@@ -9,17 +9,17 @@ function Calc(){
     console.log("Invalid integer value entered");
   } else {
     if (operation === "add"){
-      console.log(num1 + num2);
+      alert(num1 + num2);
     } else if (operation === "minus"){
-      console.log(num1 - num2);
+      alert(num1 - num2);
     } else if (operation === "multiply"){
-      console.log(num1 * num2);
+      alert(num1 * num2);
     } else if (operation === "divide"){
-      console.log(num1 / num2);
+      alert(num1 / num2);
     } else if (operation === "modulus") {
-      console.log(num1 % num2);
+      alert(num1 % num2);
     } else {
-      console.log("Wrong math operation entered!");
+      alert("Wrong math operation entered!");
     }
   }
 }
